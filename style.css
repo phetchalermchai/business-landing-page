@@ -101,7 +101,7 @@
 header{
 
     .nav-container{
-        background: url("/img/background-mb.svg"),no-repeat;
+        background: url("img/background-mb.svg"),no-repeat;
         background-size: cover;
         background-position: bottom;
         height: 53.9375rem;
@@ -1129,7 +1129,7 @@ footer{
         height: 65.125rem;
         
         .nav-container{
-            background: url("/img/background.svg"),no-repeat;
+            background: url("img/background.svg"),no-repeat;
             background-size: cover;
             background-position: center bottom;
             height: 58.125rem;

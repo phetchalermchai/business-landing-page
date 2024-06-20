@@ -1,11 +1,11 @@
 @font-face {
     font-family: graphikRegular;
-    src: url("/Graphik-Font-Family/GraphikRegular.otf");
+    src: url("Graphik-Font-Family/GraphikRegular.otf");
 }
 
 @font-face {
     font-family: graphikBold;
-    src: url("/Graphik-Font-Family/GraphikBold.otf");
+    src: url("Graphik-Font-Family/GraphikBold.otf");
 }
 
 :root{
@@ -110,8 +110,12 @@ header{
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 17px 16px;
-
+            padding: 1.0625rem 1rem;
+            position: fixed;
+            width: 100%;
+            height: 7.375rem;
+            transition: 0.7s;
+            
             ul{
                 display: none;
             }
@@ -121,18 +125,26 @@ header{
             }
 
             .nav-menumobile{
-
+                
                 img{
                     cursor: pointer;
                 }
             }
         }
 
+        nav.nav-scroll{
+            background-color: #18171D;
+            height: 5.25rem;
+            transition: 0.7s;
+            z-index: 2;
+        }
+
         section{
 
             .header_info-container{
                 height: 46.875rem;
-                padding: 1.875rem 1.25rem;
+                padding: 9.25rem 1.25rem;
+                transition: 0.5s;
 
                 .header-info{
                     margin-top: 3.125rem;
@@ -143,6 +155,7 @@ header{
                         text-align: center;
                         letter-spacing: var(--spacing_2);
                         padding: 0.625rem;
+                        
                     }
 
                     h4{
@@ -1137,9 +1150,8 @@ footer{
             nav{
                 justify-content: start;
                 align-items: center;
-                width: 85%;
-                margin: 0 auto;
-                padding: 0;
+                width: 100%;
+                padding: 0 7.5%;
                 height: 9.75rem;
 
                 ul{
@@ -1178,7 +1190,7 @@ footer{
             section{
                 .header_info-container{
                     height: 55.3125rem;
-                    padding: 5rem 0;
+                    padding: 14.75rem 0;
                     display: flex;
                     flex-direction: column;
                     row-gap: 2.5rem;
@@ -1493,7 +1505,8 @@ footer{
         .nav-container{
 
             nav{
-                width: 80%;
+                width: 100%;
+                padding: 0 10%;
 
                 ul{
                     column-gap: 1.3125rem;
@@ -1896,8 +1909,8 @@ footer{
     header{
         .nav-container{
             nav{
-                width: 70%;
-                
+                width: 100%;
+                padding: 0 15%;
                 .nav-logo{
                     margin-left: 5rem;
                     

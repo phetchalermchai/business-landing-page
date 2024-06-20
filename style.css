@@ -589,7 +589,7 @@ main{
                     column-gap: 0.686875rem;
 
                     img{
-                        content: url("/img/mobile/avatar.svg");
+                        content: url("img/mobile/avatar.svg");
                         width: 2.641875rem;
                         height: 2.641875rem;
                     }
@@ -1384,7 +1384,7 @@ footer{
                         column-gap: 0.686875rem;
     
                         img{
-                            content: url("/img/avatar.svg");
+                            content: url("img/avatar.svg");
                             width: 3.125rem;
                             height: 3.125rem;
                         }
